@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Головна - Fire Proof</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header class="header">
+	<div class="container">
+        <div class="row align-items-center align-items-md-end">
+            <div class="col-auto col-xl-1">
+                <a href="/" class="header__logotype">
+                    <img src="img/logotype.png" alt="Логотип">
+                </a>
+            </div>
+            <div class="col">
+                <div class="header__row align-items-center align-items-md-start">
+                    <a href="/catalog.html" class="header__catalog icon-container">
+                        <svg class="icon icon--fill-white">
+                            <use xlink:href="sprite.svg#icon-catalog"></use>
+                        </svg>
+                        Каталог
+                    </a>
+                    <div class="d-none d-sm-flex flex-wrap align-items-center mt-md-3">
+                        <span class="icon-container d-md-down-none">
+                            <svg class="icon icon--fill-white">
+                                <use xlink:href="sprite.svg#icon-pin"></use>
+                            </svg>
+                            м. Чернігів, проспект Миру, 233
+                        </span>
+                        <div class="dropdown ml-md-4">
+                            <a href="tel:+38 (097) 465-66-29">+38 (097) 465-66-29</a>
+                            <button type="button" id="dropdownHeaderPhones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownHeaderPhones">
+                                <a href="tel:+38 (063) 461-88-04" class="dropdown-item">+38 (063) 461-88-04</a>
+                                <a href="tel:+38 (095) 289-57-40" class="dropdown-item">+38 (095) 289-57-40</a>
+                                <a href="tel:+38 (0462) 67-91-65" class="dropdown-item">+38 (0462) 67-91-65</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#section-contacts" class="header__catalog icon-container px-3 d-md-none" data-menu-toggle="">
+                        <svg class="icon icon--fill-white m-0">
+                            <use xlink:href="sprite.svg#icon-menu"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div id="menu" class="header__row header__menu">
+                    <div class="h3 p-1 mb-3 d-md-none">Меню</div>
+                    <nav class="header__nav">
+                        <a href="#" class="is-active">Головна</a>
+                        <a href="#">Про нас</a>
+                        <a href="#">Схема проїзду</a>
+                        <a href="#">Контакти</a>
+                        <a href="#">Відгуки</a>
+                    </nav>
+                    <div class="header__phones mt-5 d-sm-none">
+                        <a href="tel:+38 (097) 465-66-29">+38 (097) 465-66-29</a>
+                        <a href="tel:+38 (063) 461-88-04">+38 (063) 461-88-04</a>
+                        <a href="tel:+38 (095) 289-57-40">+38 (095) 289-57-40</a>
+                        <a href="tel:+38 (0462) 67-91-65">+38 (0462) 67-91-65</a>
+                    </div>
+                    <a href="#section-contacts" class="button d-md-none d-lg-inline-flex" data-menu-toggle="">Зворотній дзвінок</a>
+                </div>
+            </div>
+        </div>
+	</div>
+</header>
+
+<section class="slider">
+    <div id="slider" class="slider__content">
+        <div class="slider__item" style="background-image: url(img/slider-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-6 col-xl-5 offset-lg-1">
+                        <div class="h1">Лідер з продажу та обслуговування протипожежного обладнання</div>
+                        <a href="#" class="button button--style-arrow mt-4">До каталогу</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item" style="background-image: url(img/slider-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-6 col-xl-5 offset-lg-1">
+                        <div class="h1">Лідер з продажу та обслуговування протипожежного обладнання</div>
+                        <a href="#" class="button button--style-arrow mt-4">До каталогу</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider__control">
+        <div id="slider-control" class="container">
+            <div class="slider__count">01</div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-welcome">
+    <div class="container">
+        <h2 class="h1 section__title">Центр безепеки ГРАНД</h2>
+        <div class="row">
+            <div class="col-lg-5 col-xl-4 offset-xl-1">
+                <p class="lg">Центр безпеки «Гранд» заснований в 2017 році. Спочатку ми займалися виключно постачанням протипожежного устаткування для організацій Чернігова, проте зовсім скоро в нашу команду прийшли фахівці з великим досвідом надання послуг в цій сфері. На сьогодні ми раді запропонувати своїм клієнтам повний перелік устаткування і послуг спрямованих на забезпечення пожежної безпеки об’єктів будь-якого типу.</p>
+            </div>
+            <div class="col-lg-6 offset-lg-1 d-flex flex-column align-items-end">
+                <div class="welcome__images my-auto d-md-down-none">
+                    <img src="img/welcome-images.png" alt="Фото пожарних">
+                </div>
+                <a href="#" class="button button--style-link button--style-arrow mt-4 mt-md-5">детальніше</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-advantages">
+    <div class="container">
+        <h2 class="h1 section__title text-center">Переваги</h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-9 col-md-4 advantages__item">
+                <img src="img/icons/advantages-1.svg" alt="Иконка">
+                <p class="lg">Високопрофільний підхід до кожного клієнта</p>
+            </div>
+            <div class="col-sm-9 col-md-4 advantages__item">
+                <img src="img/icons/advantages-1.svg" alt="Иконка">
+                <p class="lg">Дотримання стандартів та ГОСТів</p>
+            </div>
+            <div class="col-sm-9 col-md-4 advantages__item">
+                <img src="img/icons/advantages-1.svg" alt="Иконка">
+                <p class="lg">Дотримання термінів</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-services">
+    <div class="container">
+        <div class="section__title">
+            <h2 class="h1">Популярні послуги</h2>
+            <a href="#" class="button button--style-link button--style-arrow d-sm-down-none">Перейти до всіх послуг</a>
+        </div>
+        <div class="services__list">
+            <a href="#">Технічне обслуговування та перезарядка вогнегасників</a>
+            <a href="#">Технічне обслуговування пожежних кран-комплектів</a>
+            <a href="#">Експертиза протипожежного стану об’єкта</a>
+            <a href="#">Автоматична пожежна сигналізація (проектування, монтаж, тех. обслуговування)</a>
+            <a href="#">Автоматичні системи пожежогасіння (проектування, монтаж, тех. обслуговування)</a>
+            <a href="#">Системи блискавкозахисту (проектування, монтаж)</a>
+        </div>
+        <div class="text-right">
+            <a href="#" class="button button--style-link button--style-arrow mt-5 d-md-none">Всі послуги</a>
+        </div>
+    </div>
+</section>
+
+<section class="section section-reviews">
+    <div class="container">
+        <div class="section__title">
+            <h2 class="h1">Відгуки клієнтів</h2>
+            <div id="carousel-control" class="reviews__control"></div>
+        </div>
+        <div id="carousel" class="reviews__carousel">
+            <div class="reviews__item">
+                <div>
+                    <div class="reviews__photo">
+                        <img src="img/review-photo.png" alt="Фото Ігор Висоцький">
+                    </div>
+                    <div class="reviews__information">
+                        <h3>Ігор Висоцький</h3>
+                        <span>ТОВ “Опендорс ХОЛЛ”</span>
+                    </div>
+                    <div class="reviews__rating">
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                </div>
+                <p>Шланги брал для дренажного насоса,визуально неплохо. Несколько раз использовал,так как применять буду раз в квартал,думаю станут на долго.Консультация продавца на высоте,приятно,профессионально,оперативно</p>
+                <span>09 Серпня 2020</span>
+            </div>
+            <div class="reviews__item">
+                <div>
+                    <div class="reviews__photo">
+                        <img src="img/review-photo.png" alt="Фото Ігор Висоцький">
+                    </div>
+                    <div class="reviews__information">
+                        <h3>Ігор Висоцький</h3>
+                        <span>ТОВ “Опендорс ХОЛЛ”</span>
+                    </div>
+                    <div class="reviews__rating">
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                </div>
+                <p>Шланги брал для дренажного насоса,визуально неплохо. Несколько раз использовал,так как применять буду раз в квартал,думаю станут на долго.Консультация продавца на высоте,приятно,профессионально,оперативно</p>
+                <span>09 Серпня 2020</span>
+            </div>
+            <div class="reviews__item">
+                <div>
+                    <div class="reviews__photo">
+                        <img src="img/review-photo.png" alt="Фото Ігор Висоцький">
+                    </div>
+                    <div class="reviews__information">
+                        <h3>Ігор Висоцький Васильевич</h3>
+                        <span>ТОВ “Опендорс ХОЛЛ”</span>
+                    </div>
+                    <div class="reviews__rating">
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star icon--fill-black">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="icon icon-star">
+                            <use xlink:href="sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                </div>
+                <p>Шланги брал для дренажного насоса,визуально неплохо. Несколько раз использовал,так как применять буду раз в квартал,думаю станут на долго.Консультация продавца на высоте,приятно,профессионально,оперативно</p>
+                <span>09 Серпня 2020</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-contacts" class="section section-contacts">
+    <div class="container">
+        <h2 class="h1 section__title">Контакти</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-5 col-xl-4">
+                <div class="contacts__list">
+                    <div class="font-weight-medium">
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#icon-pin"></use>
+                        </svg>
+                        14007, м. Чернігів, проспект Миру, 233
+                    </div>
+                    <div class="flex-column align-items-start my-4">
+                        <a href="tel:(063) 461-88-04">(063) 461-88-04</a>
+                        <a href="tel:(095) 289-57-40">(095) 289-57-40</a>
+                        <a href="tel:(097) 465-66-29">(097) 465-66-29</a>
+                        <a href="tel:(0462) 67-91-65">(0462) 67-91-65</a>
+                    </div>
+                    <div>
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#icon-envelope"></use>
+                        </svg>
+                        <a href="mailto:snittko@gmail.com">snittko@gmail.com</a>
+                    </div>
+                    <div>
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#icon-envelope"></use>
+                        </svg>
+                        <a href="mailto:ingo@cbgrand.com.ua">ingo@cbgrand.com.ua</a>
+                    </div>
+                    <div>
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#icon-envelope"></use>
+                        </svg>
+                        <a href="mailto:ingo@cbgrand.com.ua">ingo@cbgrand.com.ua</a>
+                    </div>
+                    <div class="mt-3">
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#icon-earth"></use>
+                        </svg>
+                        <a href="http://cbgrand.com.ua" target="_blank">www.cbgrand.com.ua</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 offset-lg-1 offset-xl-2 mt-5 mt-md-0">
+                <form action="#" class="form">
+                    <div class="form__content">
+                        <div class="form__message">
+                            <p>Ваші контактні дані успішно відправлені!<br>Наш оператор зв’яжеться з вами на протязі 30 хв.</p>
+                        </div>
+
+                        <div class="input">
+                            <label for="form-name">Ваше Ім’я</label>
+                            <input type="text" id="form-name" name="name">
+                        </div>
+                        <div class="input">
+                            <label for="form-phone">Ваш номер телефону</label>
+                            <input type="tel" id="form-phone" name="phone">
+                        </div>
+                        <div class="input">
+                            <label for="form-comment">Коментар</label>
+                            <textarea id="form-comment" name="comment" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="button button--style-arrow align-self-end">Відправити</button>
+                </form>
+            </div>
+        </div>
+        <div class="contacts__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.974754141331!2d31.2660681157709!3d51.53202287963916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d547c6ab4f5dab%3A0x4725f5946d6f9840!2z0YPQuy4g0JvQtdC90LjQvdCwLCAyMzMsINCn0LXRgNC90LjQs9C-0LIsINCn0LXRgNC90LjQs9C-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMTQwMDA!5e0!3m2!1sru!2sua!4v1601842633392!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-auto col-xl-1 d-sm-down-none">
+                <a href="/" class="footer__logotype">
+                    <img src="img/logotype.png" alt="Логотип">
+                </a>
+            </div>
+            <div class="col">
+                <div class="footer__row d-sm-down-none">
+                    <nav class="footer__nav">
+                        <a href="#" class="is-active">Головна</a>
+                        <a href="#">Про нас</a>
+                        <a href="#">Схема проїзду</a>
+                        <a href="#">Контакти</a>
+                        <a href="#">Відгуки</a>
+                    </nav>
+                    <div class="dropdown ml-4 d-md-down-none">
+                        <a href="tel:+38 (097) 465-66-29">+38 (097) 465-66-29</a>
+                        <button type="button" id="dropdownFooterPhones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownFooterPhones">
+                            <a href="tel:+38 (063) 461-88-04" class="dropdown-item">+38 (063) 461-88-04</a>
+                            <a href="tel:+38 (095) 289-57-40" class="dropdown-item">+38 (095) 289-57-40</a>
+                            <a href="tel:+38 (0462) 67-91-65" class="dropdown-item">+38 (0462) 67-91-65</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__row">
+                    <span class="icon-container">
+                        <svg class="icon icon--fill-white">
+                            <use xlink:href="sprite.svg#icon-pin"></use>
+                        </svg>
+                        м. Чернігів, проспект Миру, 233
+                    </span>
+                    <div class="footer__socials">
+                        <a href="#" title="Ми в Instagram">
+                            <svg class="icon icon--fill-white">
+                                <use xlink:href="sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" title="Ми в Facebook">
+                            <svg class="icon icon--fill-white">
+                                <use xlink:href="sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__row">
+                    <div class="footer__copyright">© 2020 Центр безпеки ГРАНД. Усі права захищені.</div>
+                    <a href="https://naviart.com.ua/" target="_blank" title="Сайт розробила веб-студія Naviart"><img src="img/logotype-naviart.svg" alt="Логотип веб-студія Naviart"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/scripts.min.js"></script>
+<script src="js/common.min.js"></script>
+<script>
+    const $slider = $('#slider'),
+        $sliderControl = $('#slider-control');
+
+    $slider.slick({
+        appendArrows: $sliderControl,
+        adaptiveHeight: true,
+        fade: true
+    });
+
+    $slider.on('init reInit afterChange', function (event, slick, currentSlide) {
+        const i = (currentSlide ? currentSlide : 0) + 1;
+        $sliderControl.find('.slider__count').text(('0' + i).slice(-2));
+    });
+
+    const $carousel = $('#carousel'),
+        $carouselControl = $('#carousel-control');
+
+    $carousel.slick({
+        infinite: false,
+        slidesToShow: 2,
+        variableWidth: true,
+        appendArrows: $carouselControl,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1
+                }
+            }, {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    variableWidth: false
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>

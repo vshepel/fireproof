@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Каталог - Fire Proof</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#3342b5">
+    <meta name="apple-mobile-web-app-title" content="Центр Безпеки Гранд">
+    <meta name="application-name" content="Центр Безпеки Гранд">
+    <meta name="msapplication-TileColor" content="#3342b5">
+    <meta name="theme-color" content="#3342b5">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row align-items-center align-items-md-end">
+            <div class="col-auto col-xl-1">
+                <a href="/" class="header__logotype">
+                    <img src="img/logotype.svg" alt="Логотип">
+                </a>
+            </div>
+            <div class="col">
+                <div class="header__row align-items-center align-items-md-start">
+                    <a href="/catalog.html" class="header__catalog icon-container is-active">
+                        <svg class="icon icon--fill-white">
+                            <use xlink:href="sprite.svg#icon-catalog"></use>
+                        </svg>
+                        Каталог
+                    </a>
+                    <div class="d-none d-sm-flex flex-wrap align-items-center mt-md-3">
+                        <span class="icon-container d-md-down-none">
+                            <svg class="icon icon--fill-white">
+                                <use xlink:href="sprite.svg#icon-pin"></use>
+                            </svg>
+                            м. Чернігів, проспект Миру, 233
+                        </span>
+                        <div class="dropdown ml-md-4">
+                            <a href="tel:+38 (097) 465-66-29">+38 (097) 465-66-29</a>
+                            <button type="button" id="dropdownHeaderPhones" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownHeaderPhones">
+                                <a href="tel:+38 (063) 461-88-04" class="dropdown-item">+38 (063) 461-88-04</a>
+                                <a href="tel:+38 (095) 289-57-40" class="dropdown-item">+38 (095) 289-57-40</a>
+                                <a href="tel:+38 (0462) 67-91-65" class="dropdown-item">+38 (0462) 67-91-65</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#section-contacts" class="header__catalog icon-container px-3 d-md-none"
+                       data-menu-toggle="">
+                        <svg class="icon icon--fill-white m-0">
+                            <use xlink:href="sprite.svg#icon-menu"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div id="menu" class="header__row header__menu">
+                    <div class="h3 p-1 mb-3 d-md-none">Меню</div>
+                    <nav class="header__nav">
+                        <a href="#">Головна</a>
+                        <a href="#">Про нас</a>
+                        <a href="#">Схема проїзду</a>
+                        <a href="#">Контакти</a>
+                        <a href="#">Відгуки</a>
+                    </nav>
+                    <div class="header__phones mt-5 d-sm-none">
+                        <a href="tel:+38 (097) 465-66-29">+38 (097) 465-66-29</a>
+                        <a href="tel:+38 (063) 461-88-04">+38 (063) 461-88-04</a>
+                        <a href="tel:+38 (095) 289-57-40">+38 (095) 289-57-40</a>
+                        <a href="tel:+38 (0462) 67-91-65">+38 (0462) 67-91-65</a>
+                    </div>
+                    <button class="button d-md-none d-lg-inline-flex" data-menu-toggle="" data-toggle="modal"
+                            data-target="#modal-call" type="button">Зворотній дзвінок
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main main-catalog">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li class="is-active" aria-current="page">Каталог</li>
+                </ol>
+            </nav>
+
+            <div class="d-md-down-none">
+                <select name="sort">
+                    <option value="">За популярністю</option>
+                    <option value="">Спочатку дешеві</option>
+                    <option value="">Спочатку дорогі</option>
+                    <option value="">Акційні</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-xl-3">
+                <h1 class="main__title">Каталог</h1>
+                <div class="catalog__panel d-lg-none">
+                    <button class="button icon-container" data-toggle="collapse" data-target="#collapse-catalog"
+                            aria-expanded="false" aria-controls="collapse-catalog" type="button">
+                        <svg class="icon icon--fill-white">
+                            <use xlink:href="sprite.svg#icon-catalog"></use>
+                        </svg>
+                        Категорії
+                    </button>
+                    <select name="sort">
+                        <option value="">За популярністю</option>
+                        <option value="">Спочатку дешеві</option>
+                        <option value="">Спочатку дорогі</option>
+                        <option value="">Акційні</option>
+                    </select>
+                </div>
+                <nav id="collapse-catalog" class="catalog__nav pb-4 pb-lg-0 collapse">
+                    <ul>
+                        <li>
+                            <button data-toggle="collapse" data-target="#collapse-1" aria-expanded="true"
+                                    aria-controls="collapse-1" type="button">
+                                Вогнегасники
+                            </button>
+                            <ul id="collapse-1" class="collapse show">
+                                <li><a href="#" class="is-active">Нові</a></li>
+                                <li><a href="#">ТО</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button data-toggle="collapse" data-target="#collapse-2" aria-expanded="true"
+                                    aria-controls="collapse-2" type="button">
+                                Системи протипожежного захисту
+                            </button>
+                            <ul id="collapse-2" class="collapse show">
+                                <li><a href="#">АТС монтаж</a></li>
+                                <li><a href="#">Проектування</a></li>
+                                <li><a href="#">Обслуговування</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Плани евакуації</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <div class="catalog__grid">
+                    <div class="catalog__item">
+                        <a href="/product.html" class="catalog__image not-found">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg#icon-image"></use>
+                                </svg>
+                                <span>Зображення відсутнє</span>
+                            </div>
+                        </a>
+                        <a href="/product.html" class="catalog__title">Огнетушитель порошковый Рубеж ОП-2 2 кг</a>
+                        <div class="catalog__price">
+                            <span>590 <small>грн.</small></span>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="/product.html" class="catalog__image">
+                            <img src="img/catalog-product.png"
+                                 alt="Автономная сфера порошкового пожаротушения LogicPower Fire Stop S3.0M">
+                        </a>
+                        <a href="/product.html" class="catalog__title">Автономная сфера порошкового пожаротушения
+                            LogicPower Fire Stop S3.0M</a>
+                        <div class="catalog__price">
+                            <span class="is-old">590 <small>грн.</small></span>
+                            <span>849 <small>грн.</small></span>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="/product.html" class="catalog__image">
+                            <img src="img/catalog-product.png" alt="Огнетушитель порошковый Рубеж ОП-2 2 кг">
+                        </a>
+                        <a href="/product.html" class="catalog__title">Огнетушитель порошковый Рубеж ОП-2 2 кг</a>
+                        <div class="catalog__price">
+                            <span>590 <small>грн.</small></span>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="/product.html" class="catalog__image">
+                            <img src="img/catalog-product.png"
+                                 alt="Автономная сфера порошкового пожаротушения LogicPower Fire Stop S3.0M">
+                        </a>
+                        <a href="/product.html" class="catalog__title">Автономная сфера порошкового пожаротушения
+                            LogicPower Fire Stop S3.0M</a>
+                        <div class="catalog__price">
+                            <span class="is-old">590 <small>грн.</small></span>
+                            <span>849 <small>грн.</small></span>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="/product.html" class="catalog__image">
+                            <img src="img/catalog-product.png" alt="Огнетушитель порошковый Рубеж ОП-2 2 кг">
+                        </a>
+                        <a href="/product.html" class="catalog__title">Огнетушитель порошковый Рубеж ОП-2 2 кг</a>
+                        <div class="catalog__price">
+                            <span>590 <small>грн.</small></span>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="/product.html" class="catalog__image">
+                            <img src="img/catalog-product.png"
+                                 alt="Автономная сфера порошкового пожаротушения LogicPower Fire Stop S3.0M">
+                        </a>
+                        <a href="/product.html" class="catalog__title">Автономная сфера порошкового пожаротушения
+                            LogicPower Fire Stop S3.0M</a>
+                        <div class="catalog__price">
+                            <span class="is-old">590 <small>грн.</small></span>
+                            <span>849 <small>грн.</small></span>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="Навігація по каталогу">
+                    <ul class="pagination">
+                        <li class="pagination__prev is-disabled">
+                            <a href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg#icon-arrow"></use>
+                                </svg>
+                                <span class="sr-only">Попередня</span>
+                            </a>
+                        </li>
+                        <li class="is-active" aria-current="page"><a href="#">1<span
+                                class="sr-only">(поточна)</span></a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <span>...</span>
+                        <li><a href="#">10</a></li>
+                        <li class="pagination__next">
+                            <a href="#" aria-label="Next">
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg#icon-arrow"></use>
+                                </svg>
+                                <span class="sr-only">Наступна</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-auto col-xl-1 d-sm-down-none">
+                <a href="/" class="footer__logotype">
+                    <img src="img/logotype.svg" alt="Логотип">
+                </a>
+            </div>
+            <div class="col">
+                <div class="footer__row d-sm-down-none">
+                    <nav class="footer__nav">
+                        <a href="#">Головна</a>
+                        <a href="#">Про нас</a>
+                        <a href="#">Схема проїзду</a>
+                        <a href="#">Контакти</a>
+                        <a href="#">Відгуки</a>
+                    </nav>
+                    <div class="dropdown ml-4 d-md-down-none">
+                        <a href="tel:+38 (097) 465-66-29">+38 (097) 465-66-29</a>
+                        <button type="button" id="dropdownFooterPhones" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"></button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownFooterPhones">
+                            <a href="tel:+38 (063) 461-88-04" class="dropdown-item">+38 (063) 461-88-04</a>
+                            <a href="tel:+38 (095) 289-57-40" class="dropdown-item">+38 (095) 289-57-40</a>
+                            <a href="tel:+38 (0462) 67-91-65" class="dropdown-item">+38 (0462) 67-91-65</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__row">
+                    <span class="icon-container">
+                        <svg class="icon icon--fill-white">
+                            <use xlink:href="sprite.svg#icon-pin"></use>
+                        </svg>
+                        м. Чернігів, проспект Миру, 233
+                    </span>
+                    <div class="footer__socials">
+                        <a href="#" title="Ми в Instagram">
+                            <svg class="icon icon--fill-white">
+                                <use xlink:href="sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" title="Ми в Facebook">
+                            <svg class="icon icon--fill-white">
+                                <use xlink:href="sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__row">
+                    <div class="footer__copyright">© 2020 Центр безпеки ГРАНД. Усі права захищені.</div>
+                    <a href="https://naviart.com.ua/" target="_blank" title="Сайт розробила веб-студія Naviart"><img
+                            src="img/logotype-naviart.svg" alt="Логотип веб-студія Naviart"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/scripts.min.js"></script>
+<script src="js/common.min.js"></script>
+</body>
+</html>

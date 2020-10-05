@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Головна - Fire Proof</title>
+    <title>Продукт - Fire Proof</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -66,7 +66,7 @@
                 <div id="menu" class="header__row header__menu">
                     <div class="h3 p-1 mb-3 d-md-none">Меню</div>
                     <nav class="header__nav">
-                        <a href="#" class="is-active">Головна</a>
+                        <a href="#">Головна</a>
                         <a href="#">Про нас</a>
                         <a href="#">Схема проїзду</a>
                         <a href="#">Контакти</a>
@@ -87,98 +87,137 @@
     </div>
 </header>
 
-<section class="slider">
-    <div id="slider" class="slider__content">
-        <div class="slider__item" style="background-image: url(img/slider-bg.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-lg-6 col-xl-5 offset-lg-1">
-                        <div class="h1">Лідер з продажу та обслуговування протипожежного обладнання</div>
-                        <a href="#" class="button button--style-arrow mt-4">До каталогу</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slider__item" style="background-image: url(img/slider-bg.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-lg-6 col-xl-5 offset-lg-1">
-                        <div class="h1">Лідер з продажу та обслуговування протипожежного обладнання</div>
-                        <a href="#" class="button button--style-arrow mt-4">До каталогу</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="slider__control">
-        <div id="slider-control" class="container">
-            <div class="slider__count">01</div>
-        </div>
-    </div>
-</section>
-
-<section class="section section-welcome">
+<main class="main main-catalog">
     <div class="container">
-        <h2 class="h1 section__title">Центр безепеки ГРАНД</h2>
+        <div class="d-flex align-items-center justify-content-between mb-3 mb-sm-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li class="is-active" aria-current="page">Вогнегасник порошковий Рубеж ОП-2 2 кг</li>
+                </ol>
+            </nav>
+        </div>
         <div class="row">
-            <div class="col-lg-5 col-xl-4 offset-xl-1">
-                <p class="lg">Центр безпеки «Гранд» заснований в 2017 році. Спочатку ми займалися виключно постачанням
-                    протипожежного устаткування для організацій Чернігова, проте зовсім скоро в нашу команду прийшли
-                    фахівці з великим досвідом надання послуг в цій сфері. На сьогодні ми раді запропонувати своїм
-                    клієнтам повний перелік устаткування і послуг спрямованих на забезпечення пожежної безпеки об’єктів
-                    будь-якого типу.</p>
-            </div>
-            <div class="col-lg-6 offset-lg-1 d-flex flex-column align-items-end">
-                <div class="welcome__images my-auto d-md-down-none">
-                    <img src="img/welcome-images.png" alt="Фото пожарних">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="d-lg-none mb-5">
+                    <div class="h1 main__title mb-0 mb-sm-2">Вогнегасник порошковий Рубеж ОП-2 2кг</div>
+                    <div class="d-flex flex-wrap flex-column flex-sm-row align-items-start align-items-sm-center justify-content-between">
+                        <div class="catalog__price lg">
+                            <span class="is-old">590 <small>грн.</small></span>
+                            <span>849 <small>грн.</small></span>
+                        </div>
+                        <div class="badge badge--color-green mt-2 mt-sm-0">
+                            <svg class="icon">
+                                <use xlink:href="sprite.svg#icon-check"></use>
+                            </svg>
+                            В наявності
+                        </div>
+                    </div>
                 </div>
-                <a href="#" class="button button--style-link button--style-arrow mt-4 mt-md-5">детальніше</a>
+
+                <div class="product__sidebar">
+                    <div id="carousel-product" class="product__carousel">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                    </div>
+                    <div id="carousel-product-thumb" class="product__thumb">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                        <img src="img/catalog-product.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-md-down-none mb-5">
+                    <div class="h1 main__title">Вогнегасник порошковий Рубеж ОП-2 2кг</div>
+                    <div class="badge badge--color-green">
+                        <svg class="icon">
+                            <use xlink:href="sprite.svg#icon-check"></use>
+                        </svg>
+                        В наявності
+                    </div>
+                    <div class="catalog__price lg">
+                        <span class="is-old">590 <small>грн.</small></span>
+                        <span>849 <small>грн.</small></span>
+                    </div>
+                </div>
+                <form id="form-order" class="form form--bg-grey mb-5" action="#">
+                    <div class="form__content">
+                        <div class="form__message">
+                            <p>Ваші контактні дані успішно відправлені!<br>Наш оператор зв’яжеться з вами на протязі 30
+                                хв.</p>
+                        </div>
+                        <div class="input">
+                            <label for="form-product-name">Ваше Ім’я</label>
+                            <input type="text" id="form-product-name" name="name">
+                        </div>
+                        <div class="input">
+                            <label for="form-product-phone">Ваш номер телефону</label>
+                            <input type="tel" id="form-product-phone" name="phone">
+                        </div>
+                    </div>
+                    <button type="submit" class="button button--style-arrow w-100 text-center">Замовити</button>
+                </form>
+                <div class="product__block">
+                    <div class="h2">Оплата:</div>
+                    <p>Готівкова, Оплата карткою Visa / MasterCard (LiqPay), Безготівковий для юридичних і фізичних
+                        осіб</p>
+                </div>
+                <div class="product__block">
+                    <div class="h2">Характеристики:</div>
+                    <div class="product__table">
+                        <div>
+                            <div>Тип</div>
+                            <div>Порошковый</div>
+                        </div>
+                        <div>
+                            <div>Маса вогнегасної речовини, кг</div>
+                            <div>1</div>
+                        </div>
+                        <div>
+                            <div>Особливості</div>
+                            <div>З манометром</div>
+                        </div>
+                        <div>
+                            <div>Країна-виробник товару</div>
+                            <div>Україна</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__block">
+                    <div class="h2">Гарантія:</div>
+                    <p>Обмін / повернення товару протягом 14 днів</p>
+                </div>
+                <div class="h2 mt-5">Опис:</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam aspernatur aut debitis dolore
+                    esse est ex facere illum maiores maxime nesciunt non porro, quia sed similique soluta tempora
+                    veniam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab deserunt est illo maxime, minus numquam
+                    perferendis ratione? Ad aperiam architecto autem, blanditiis consequatur deserunt excepturi
+                    explicabo fuga impedit ipsum iusto, magnam maxime, natus nemo odio quos repudiandae sapiente sed
+                    similique vel. Ad alias blanditiis doloribus hic, iste non numquam rerum!</p>
+                <div class="h2 mt-5">Як оформити замовлення</div>
+                <ul class="list">
+                    <li>Заповніть форму зворотнього зв’язку</li>
+                    <li>Оператор зв’яжеться з вами на протязі 30 хв. для уточнення деталей доставки</li>
+                    <li>Доставка товару</li>
+                    <li>Оплата зручним для вас методом</li>
+                </ul>
+                <div class="mt-5">
+                    <a href="#form-order" class="button button--style-arrow">Замовити зараз</a>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</main>
 
-<section class="section section-advantages">
-    <div class="container">
-        <h2 class="h1 section__title text-center">Переваги</h2>
-        <div class="row justify-content-center">
-            <div class="col-sm-9 col-md-4 advantages__item">
-                <img src="img/icons/advantages-1.svg" alt="Иконка">
-                <p class="lg">Високопрофільний підхід до кожного клієнта</p>
-            </div>
-            <div class="col-sm-9 col-md-4 advantages__item">
-                <img src="img/icons/advantages-1.svg" alt="Иконка">
-                <p class="lg">Дотримання стандартів та ГОСТів</p>
-            </div>
-            <div class="col-sm-9 col-md-4 advantages__item">
-                <img src="img/icons/advantages-1.svg" alt="Иконка">
-                <p class="lg">Дотримання термінів</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section section-services">
-    <div class="container">
-        <div class="section__title">
-            <h2 class="h1">Популярні послуги</h2>
-            <a href="#" class="button button--style-link button--style-arrow d-sm-down-none">Перейти до всіх послуг</a>
-        </div>
-        <div class="services__list">
-            <a href="#">Технічне обслуговування та перезарядка вогнегасників</a>
-            <a href="#">Технічне обслуговування пожежних кран-комплектів</a>
-            <a href="#">Експертиза протипожежного стану об’єкта</a>
-            <a href="#">Автоматична пожежна сигналізація (проектування, монтаж, тех. обслуговування)</a>
-            <a href="#">Автоматичні системи пожежогасіння (проектування, монтаж, тех. обслуговування)</a>
-            <a href="#">Системи блискавкозахисту (проектування, монтаж)</a>
-        </div>
-        <div class="text-right">
-            <a href="#" class="button button--style-link button--style-arrow mt-5 d-md-none">Всі послуги</a>
-        </div>
-    </div>
-</section>
-
-<section class="section section-reviews">
+<section class="section section-reviews border-top">
     <div class="container">
         <div class="section__title">
             <h2 class="h1">Відгуки клієнтів</h2>
@@ -285,9 +324,9 @@
     </div>
 </section>
 
-<section class="section section-contacts">
+<section class="section">
     <div class="container">
-        <h2 class="h1 section__title">Контакти</h2>
+        <h2 class="h1 section__title">Наші контакти</h2>
         <div class="row">
             <div class="col-md-6 col-lg-5 col-xl-4">
                 <div class="contacts__list">
@@ -354,10 +393,6 @@
                 </form>
             </div>
         </div>
-        <div class="contacts__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.974754141331!2d31.2660681157709!3d51.53202287963916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d547c6ab4f5dab%3A0x4725f5946d6f9840!2z0YPQuy4g0JvQtdC90LjQvdCwLCAyMzMsINCn0LXRgNC90LjQs9C-0LIsINCn0LXRgNC90LjQs9C-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMTQwMDA!5e0!3m2!1sru!2sua!4v1601842633392!5m2!1sru!2sua"
-                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
     </div>
 </section>
 
@@ -372,7 +407,7 @@
             <div class="col">
                 <div class="footer__row d-sm-down-none">
                     <nav class="footer__nav">
-                        <a href="#" class="is-active">Головна</a>
+                        <a href="#">Головна</a>
                         <a href="#">Про нас</a>
                         <a href="#">Схема проїзду</a>
                         <a href="#">Контакти</a>
@@ -419,16 +454,17 @@
     </div>
 </footer>
 
-<form class="modal fade" id="modal-call" tabindex="-1" aria-labelledby="modal-callLabel" aria-hidden="true">
+<form class="modal fade" id="modal-service" tabindex="-1" aria-labelledby="modal-serviceLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-callLabel">Зворотній дзвінок</h5>
+                <h5 class="modal-title" id="modal-serviceLabel">Замовити послугу</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
+                <p class="lg mb-4">Технічне обслуговування вогнегасників</p>
                 <div class="form__content">
                     <div class="form__message">
                         <p>Ваші контактні дані успішно відправлені!<br>Наш оператор зв’яжеться з вами на протязі 30 хв.
@@ -449,7 +485,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="submit" class="button button--style-arrow">Відправити</button>
+                <button type="submit" class="button button--style-arrow">Замовити</button>
             </div>
         </div>
     </div>
@@ -458,18 +494,22 @@
 <script src="js/scripts.min.js"></script>
 <script src="js/common.min.js"></script>
 <script>
-    const $slider = $('#slider'),
-        $sliderControl = $('#slider-control');
+    const $carouselProduct = $('#carousel-product'),
+        $carouselThumb = $('#carousel-product-thumb');
 
-    $slider.slick({
-        appendArrows: $sliderControl,
-        adaptiveHeight: true,
-        fade: true
+    $carouselProduct.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: $carouselThumb
     });
 
-    $slider.on('init reInit afterChange', function (event, slick, currentSlide) {
-        const i = (currentSlide ? currentSlide : 0) + 1;
-        $sliderControl.find('.slider__count').text(('0' + i).slice(-2));
+    $carouselThumb.slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: $carouselProduct,
+        focusOnSelect: true
     });
 
     const $carousel = $('#carousel'),
